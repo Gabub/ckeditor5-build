@@ -1,11 +1,34 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
+  "_args": [
+    [
+      "github:gabub/ckeditor5-build",
+      "C:\\Users\\gabrielh\\Documents\\Projects\\sb6\\ui"
+    ]
+  ],
+  "_from": "github:gabub/ckeditor5-build",
+  "_id": "ckeditor5-build@github:gabub/ckeditor5-build#0b5d6d3bb7d522a11e7a7abd9132f14f7ae1b923",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/ckeditor5-build",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:gabub/ckeditor5-build",
+    "rawSpec": "github:gabub/ckeditor5-build",
+    "saveSpec": "github:gabub/ckeditor5-build",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:gabub/ckeditor5-build#0b5d6d3bb7d522a11e7a7abd9132f14f7ae1b923",
+  "_spec": "github:gabub/ckeditor5-build",
+  "_where": "C:\\Users\\gabrielh\\Documents\\Projects\\sb6\\ui",
+  "author": {
+    "name": "CKSource"
+  },
   "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
-  "version": "0.0.1",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
-  "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-autoformat": "^27.1.0",
     "@ckeditor/ckeditor5-basic-styles": "^27.1.0",
@@ -37,7 +60,12 @@
     "webpack": "^4.46.0",
     "webpack-cli": "^4.6.0"
   },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "./build/ckeditor.js",
+  "name": "ckeditor5-build",
+  "private": true,
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "version": "0.0.1"
 }
